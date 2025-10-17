@@ -11,7 +11,13 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>计算器-章皖俊-2023414290139</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="accessories-calculator"/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 18pt &quot;Consolas&quot;;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -28,6 +34,19 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+font: 18pt &quot;Consolas&quot;;
+color:rgba(0,100,0,255);
+background-color:rgba(255,255,255,255);
+}
+QPushButton:hover
+{
+	background:rgba(240,255,240,255)
+}
+</string>
+        </property>
         <property name="text">
          <string>1</string>
         </property>
@@ -40,6 +59,15 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgba(255,182,193,255);
+color:rgba(219,112,147,255);
+}
+QPushButton:hover{
+background-color:rgba(250,150,170,255)
+}</string>
         </property>
         <property name="text">
          <string>.</string>
@@ -54,8 +82,17 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgba(255,182,193,255);
+color:rgba(219,112,147,255);
+}
+QPushButton:hover{
+background-color:rgba(250,150,170,255)
+}</string>
+        </property>
         <property name="text">
-         <string>÷</string>
+         <string>/</string>
         </property>
        </widget>
       </item>
@@ -66,6 +103,19 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+font: 18pt &quot;Consolas&quot;;
+color:rgba(0,100,0,255);
+background-color:rgba(255,255,255,255);
+}
+QPushButton:hover
+{
+	background:rgba(240,255,240,255)
+}
+</string>
         </property>
         <property name="text">
          <string>4</string>
@@ -80,6 +130,16 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:rgba(255,250,205,255);
+color:rgba(218,165,32,255)
+}
+QPushButton:hover{
+background-color:rgba(250,240,180,255)
+}</string>
+        </property>
         <property name="text">
          <string>C</string>
         </property>
@@ -92,6 +152,19 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+font: 18pt &quot;Consolas&quot;;
+color:rgba(0,100,0,255);
+background-color:rgba(255,255,255,255);
+}
+QPushButton:hover
+{
+	background:rgba(240,255,240,255)
+}
+</string>
         </property>
         <property name="text">
          <string>2</string>
@@ -106,6 +179,16 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:rgba(255,250,205,255);
+color:rgba(218,165,32,255)
+}
+QPushButton:hover{
+background-color:rgba(250,240,180,255)
+}</string>
+        </property>
         <property name="text">
          <string>CE</string>
         </property>
@@ -118,6 +201,19 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+font: 18pt &quot;Consolas&quot;;
+color:rgba(0,100,0,255);
+background-color:rgba(255,255,255,255);
+}
+QPushButton:hover
+{
+	background:rgba(240,255,240,255)
+}
+</string>
         </property>
         <property name="text">
          <string>0</string>
@@ -132,6 +228,16 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:rgba(255,250,205,255);
+color:rgba(218,165,32,255)
+}
+QPushButton:hover{
+background-color:rgba(250,240,180,255)
+}</string>
+        </property>
         <property name="text">
          <string>+/-</string>
         </property>
@@ -144,6 +250,15 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgba(255,182,193,255);
+color:rgba(219,112,147,255);
+}
+QPushButton:hover{
+background-color:rgba(250,150,170,255)
+}</string>
         </property>
         <property name="text">
          <string>√</string>
@@ -158,8 +273,17 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgba(255,182,193,255);
+color:rgba(219,112,147,255);
+}
+QPushButton:hover{
+background-color:rgba(250,150,170,255)
+}</string>
+        </property>
         <property name="text">
-         <string>×</string>
+         <string>*</string>
         </property>
        </widget>
       </item>
@@ -170,6 +294,15 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgba(255,182,193,255);
+color:rgba(219,112,147,255);
+}
+QPushButton:hover{
+background-color:rgba(250,150,170,255)
+}</string>
         </property>
         <property name="text">
          <string>+</string>
@@ -184,6 +317,15 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgba(255,182,193,255);
+color:rgba(219,112,147,255);
+}
+QPushButton:hover{
+background-color:rgba(250,150,170,255)
+}</string>
+        </property>
         <property name="text">
          <string>1/X</string>
         </property>
@@ -196,6 +338,19 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+font: 18pt &quot;Consolas&quot;;
+color:rgba(0,100,0,255);
+background-color:rgba(255,255,255,255);
+}
+QPushButton:hover
+{
+	background:rgba(240,255,240,255)
+}
+</string>
         </property>
         <property name="text">
          <string>3</string>
@@ -210,6 +365,19 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+font: 18pt &quot;Consolas&quot;;
+color:rgba(0,100,0,255);
+background-color:rgba(255,255,255,255);
+}
+QPushButton:hover
+{
+	background:rgba(240,255,240,255)
+}
+</string>
+        </property>
         <property name="text">
          <string>9</string>
         </property>
@@ -222,6 +390,16 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:rgb(135,206,250);
+color:rgb(0,0,0)
+}
+QPushButton:hover{
+background-color:rgb(0,191,255);
+}</string>
         </property>
         <property name="text">
          <string>=</string>
@@ -236,6 +414,19 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+font: 18pt &quot;Consolas&quot;;
+color:rgba(0,100,0,255);
+background-color:rgba(255,255,255,255);
+}
+QPushButton:hover
+{
+	background:rgba(240,255,240,255)
+}
+</string>
+        </property>
         <property name="text">
          <string>8</string>
         </property>
@@ -248,6 +439,19 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+font: 18pt &quot;Consolas&quot;;
+color:rgba(0,100,0,255);
+background-color:rgba(255,255,255,255);
+}
+QPushButton:hover
+{
+	background:rgba(240,255,240,255)
+}
+</string>
         </property>
         <property name="text">
          <string>6</string>
@@ -262,6 +466,19 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+font: 18pt &quot;Consolas&quot;;
+color:rgba(0,100,0,255);
+background-color:rgba(255,255,255,255);
+}
+QPushButton:hover
+{
+	background:rgba(240,255,240,255)
+}
+</string>
+        </property>
         <property name="text">
          <string>5</string>
         </property>
@@ -274,6 +491,15 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgba(255,182,193,255);
+color:rgba(219,112,147,255);
+}
+QPushButton:hover{
+background-color:rgba(250,150,170,255)
+}</string>
         </property>
         <property name="text">
          <string>-</string>
@@ -288,6 +514,15 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgb(240,128,128);
+color:rgb(0,0,0)
+}
+QPushButton:hover{
+background-color:rgb(205,92,92);
+}</string>
+        </property>
         <property name="text">
          <string>DEL</string>
         </property>
@@ -300,6 +535,19 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+font: 18pt &quot;Consolas&quot;;
+color:rgba(0,100,0,255);
+background-color:rgba(255,255,255,255);
+}
+QPushButton:hover
+{
+	background:rgba(240,255,240,255)
+}
+</string>
         </property>
         <property name="text">
          <string>7</string>
@@ -314,6 +562,15 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgba(255,182,193,255);
+color:rgba(219,112,147,255);
+}
+QPushButton:hover{
+background-color:rgba(250,150,170,255)
+}</string>
+        </property>
         <property name="text">
          <string>%</string>
         </property>
@@ -326,6 +583,15 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgba(255,182,193,255);
+color:rgba(219,112,147,255);
+}
+QPushButton:hover{
+background-color:rgba(250,150,170,255)
+}</string>
         </property>
         <property name="text">
          <string>X^2</string>
@@ -358,7 +624,7 @@
      <x>0</x>
      <y>0</y>
      <width>447</width>
-     <height>21</height>
+     <height>34</height>
     </rect>
    </property>
   </widget>
